@@ -34,8 +34,8 @@ class MainActivity : AppCompatActivity() {
 
 //        setting the tittle text icon etc for notifications
         val notification = NotificationCompat.Builder(this, CHANNEL_ID)
-            .setContentTitle("30 Days Of App Dev Tutorial 27")
-            .setContentText("Congratulation")
+            .setContentTitle("27th day of 30days of App DEV")
+            .setContentText("Learning About Notifications")
             .setSmallIcon(R.drawable.baseline_circle_notifications_24)
             .setPriority(NotificationCompat.PRIORITY_HIGH)
 //                setting intent to see what happens when we click on notification
